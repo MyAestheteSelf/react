@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background: rgb(27, 0, 148);
+    height:40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.container .links,.logo{
+    width: auto;
+    height: 100%;
+}
+.container .links{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.container a{
+    color: aqua;
+    text-decoration: none;
+    transition:0.4s all;
+}
+a:hover{
+    color: rgb(236, 90, 90);
+}
